@@ -226,6 +226,10 @@
   position: relative;
   object-fit: cover;
   max-width: 100%;
+  transition-property: all;
+  transition-duration: 1s;
+  transition-delay: 1s;
+  transition-timing-function: ease-in-out;
 }
 .img___7KnY > picture > img {
   object-fit: cover;
